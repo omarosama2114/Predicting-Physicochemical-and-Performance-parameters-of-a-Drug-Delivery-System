@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 from scipy.stats import chi2_contingency
 
 # Load the data
-df = pd.read_csv('C:/Users/omaro/Desktop/KAU/Drug Dataset - Formatted.csv')
+df = pd.read_csv('../Data/Drug Dataset.csv')
 
 # Drop Unnamed Columns
 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
