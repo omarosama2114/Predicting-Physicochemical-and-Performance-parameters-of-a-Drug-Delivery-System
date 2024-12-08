@@ -1,0 +1,14 @@
+Feature,Importance
+PL_Phospholipid 90G,0.23513505
+hydration time,0.234323
+PL_phosphatidylcholine egg yolk,0.11579223
+Drug MW (Dalton),0.08411092
+sonication time,0.081414714
+Edge activator (HLB),0.056545284
+PL_Phosphatidylcholine,0.05095158
+Phospholipid Lipid  loading,0.042375673
+Edge activator loading,0.038744994
+solvent ratio chloroform (%),0.036938626
+Permeation time (hour),0.012231741
+Cholesterol,0.006774376
+PL_Phospholipid 90H,0.0046618474

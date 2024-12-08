@@ -1,12 +1,9 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.impute import SimpleImputer
-from scipy.stats import chi2_contingency
 
 # Load the data
-df = pd.read_csv('../Data/Raw Drugs Dataset.csv')
+df = pd.read_csv('../Data/Drug Dataset.csv')
 
 # Drop Unnamed Columns
 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
@@ -49,8 +46,21 @@ df = df.drop_duplicates()
 df = df.drop(columns=['DRUG (Log P)'])
 
 # Encode Categorical Columns 'Phosopholipid Type' using One-Hot Encoding
-# Perform one-hot encoding
+# Perform one-hot 'dummy' encoding
 df = pd.get_dummies(df, columns=['Phosopholipid Type'], prefix='PL', drop_first=True)
+
+# Save the cleaned dataset
+df.to_csv('../Data/Drug Dataset - Cleaned & Encoded.csv', index=False)
+
+
+
+
+
+
+
+
+    
+
 
 
 

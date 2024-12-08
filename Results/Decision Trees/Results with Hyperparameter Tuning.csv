@@ -1,0 +1,5 @@
+Label,Best Parameters,MAE,Training MSE,Testing MSE,Testing RMSE,R^2 Score
+Drug loading (EE%),"{'max_depth': 5, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}",9.213774453146097,49.62323301501823,304.40948977183905,17.447334746941696,0.03375313291150728
+Vesicular  Size (nm),"{'max_depth': 10, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}",122.59329804421769,19970.43768934382,35649.36970941497,188.8104067826108,0.6841518026782988
+Vesicles zeta potential (mV),"{'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}",7.898929089026915,42.0072394371118,141.1556288359768,11.8808934359322,0.5068341042477753
+Drug released percentage,"{'max_depth': 5, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}",5.130355459355455,27.42403449271036,136.20017722969743,11.67048316179315,0.7943992057833678

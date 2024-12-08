@@ -1,0 +1,5 @@
+Label,Model,Best Parameters,MAE,Training MSE,Testing MSE,R^2 Score
+Drug loading (EE%),Ridge,"{'alpha': 100, 'max_iter': 50, 'tol': 0.001}",11.897178785828071,155.21073448055208,307.93879115591545,0.022550537329053988
+Vesicular  Size (nm),Ridge,"{'alpha': 50, 'max_iter': 50, 'tol': 0.001}",164.5811862829765,66210.56954213735,67169.40803347259,0.40488887698524545
+Vesicles zeta potential (mV),Ridge,"{'alpha': 10, 'max_iter': 50, 'tol': 0.001}",9.322410804680672,140.8403679536097,146.98749945332636,0.4864588650835031
+Drug released percentage,Ridge,"{'alpha': 5, 'max_iter': 50, 'tol': 0.001}",4.8837534666438,48.89989884146539,48.254678894024586,0.9271572144245582
